@@ -1,5 +1,6 @@
 #This program is the second lab test that is a 3D vector using classes to allow for multiplication, addition, subtraction, dot point and a few other functions
-#in this code
+#in this code. I had to import the math library into the code to get the square root at the end and throughout the code it uses the examples given in the lab 2
+#document
 #Author: Robert Hatfield
 #Student Number: c18475892
 #Date: 12/12/19
@@ -7,7 +8,7 @@
 
 import math # For this import I used it later in the magnitude section to get the square root
 
-class vector3D: # This is the main class with all of the calculations
+class vector3D:# This is the main class with all of the calculations
     def __init__(self,x,y,z):
         self.x=float(x)
         self.y=float(y)
@@ -69,6 +70,7 @@ v6 = v1 * 2
 print("v1 * 2.5 = ", v6)
 print("\n")
 
+print("Printing magnitude")
 print("v1 magnitude is ", v1.magnitude())# magnitude function
 
 print("\n")
